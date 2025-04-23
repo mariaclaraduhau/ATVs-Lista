@@ -19,7 +19,6 @@ struct List {
     Node* start;
     Node* end;
     int s;
-    int auxSoma =0;
 
     List() {
         start = NULL;
@@ -66,7 +65,6 @@ struct List {
             aux = aux->next;
         }
         printf("\n");
-        auxSoma++;
     }
 
     // O(1)
@@ -143,15 +141,6 @@ struct List {
         n->next = a->next;
         a->next = n;
 
-    }
-
-    void soma(){
-        List s;
-
-        for(int i=0; i<auxSoma; i++){
-            
-        }
-        
     }
 
 };
