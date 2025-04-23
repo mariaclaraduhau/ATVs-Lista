@@ -61,10 +61,10 @@ struct List {
     void print() {
         Node* aux = start;
         while (aux != NULL) {
-            printf("%d -> ", aux->value);
+            cout << aux->value << " -> ";
             aux = aux->next;
         }
-        printf("\n");
+        cout << "\n";
     }
 
     // O(1)
